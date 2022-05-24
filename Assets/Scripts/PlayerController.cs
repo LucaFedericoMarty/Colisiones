@@ -51,7 +51,7 @@ public class PlayerController : MonoBehaviour
             clon = Instantiate(huevoAparece);
             clon.transform.position = transform.position - new Vector3(0, 0, -1);
             clon.transform.localScale = new Vector3(aumentador, aumentador, aumentador);
-            aumentador++;
+            aumentador += aumentador;
         }
 
     }
